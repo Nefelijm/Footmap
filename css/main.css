@@ -1,0 +1,16 @@
+body {
+	font-family: 'Raleway', sans-serif !important;
+}
+
+.start {
+    background:rgb(43, 43, 43);
+}
+
+.foodmap {
+    color: rgb(255, 193, 7);
+    font-size: 2em;
+    display: flex;
+	flex-direction: column-reverse;
+		
+
+}
