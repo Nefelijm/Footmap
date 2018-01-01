@@ -55,8 +55,34 @@ body {
     height: 150px;  
 }
 
+/* Estilos para la vista traditional-meal */
 
+#plate1 , #plate2 , #plate3 {
+    width: 100%;
+    height: 80px;
+    background-color: rgb(222, 173, 236);
+}
 
+.imgplate1 , .imgplate2 , .imgplate3 {
+    width: 50%;
+    height: 150px;
+}
+
+.meal p , .meal div{
+ float: left;
+ margin-left: 2%;
+
+}
+.plate-meal {
+    background-color: aqua;
+    width: 30%;
+    height: 50px;
+}
+
+#imgplate1 , #imgplate2 , #imgplate3 {
+    width: 100%;
+    height: 180px;
+}
 
 
 

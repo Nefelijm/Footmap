@@ -54,7 +54,12 @@ $('document').ready(function(){
         $('#img4').attr('src', '../assets/img/shambari.jpg');
     }
    
+    $('#Rest1').click(function () {
 
+        localStorage.ContRest = $('#Rest1').text();
+        window.location.href = '../views/traditional-meal.html';
+
+    });
 
 
 
