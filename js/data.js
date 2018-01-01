@@ -3,19 +3,16 @@ var data = {
     'yume': {
         'platos': [
            { 
-            'nombre': 'ceviche',
-            'photo': 'fff', 
-            'precio': 25
+            'nombre': 'causa Limeña',            
+            'precio': 12,                      
            },
            {
-             'nombre': 'ceviche',
-             'photo': 'fff',
-             'precio': 23
+             'nombre': 'Aji de Gallina',            
+             'precio': 14
             },
            {
-             'nombre': 'ceviche',
-             'photo': 'fff',
-            'precio': 26
+             'nombre': 'Sopa Seca',
+            'precio': 8
             }
         ],
         
@@ -23,57 +20,48 @@ var data = {
     'Madam Tusam':{
         'platos': [
             {
-                'nombre': 'ceviche',
-                'photo': 'fff',
-                'precio': 25
+                'nombre': 'Pollo a la brasa',
+                'precio': 10
             },
             {
-                'nombre': 'ceviche',
-                'photo': 'fff',
-                'precio': 23
+                'nombre': 'Chaufa',
+                'precio': 10
             },
             {
-                'nombre': 'ceviche',
-                'photo': 'fff',
-                'precio': 26
+                'nombre': 'Tallarin Saltado',
+                'precio': 7
             }
         ],
     },
     'La red':{
         'platos': [
             {
-                'nombre': 'ceviche',
-                'photo': 'fff',
-                'precio': 25
+                'nombre': 'Tamal de Pollo',                
+                'precio': 3.5
             },
             {
-                'nombre': 'ceviche',
-                'photo': 'fff',
-                'precio': 23
+                'nombre': 'Encebollado',                
+                'precio': 14
             },
             {
-                'nombre': 'ceviche',
-                'photo': 'fff',
-                'precio': 26
+                'nombre': 'Bandera',                
+                'precio': 18
             }
         ],
     },
     'Punto Azul':{
         'platos': [
             {
-                'nombre': 'ceviche',
-                'photo': 'fff',
-                'precio': 25
+                'nombre': 'Patacon',
+                'precio': 19
             },
             {
-                'nombre': 'ceviche',
-                'photo': 'fff',
-                'precio': 23
+                'nombre': 'Sopa Marinera',
+                'precio': 10
             },
             {
-                'nombre': 'ceviche',
-                'photo': 'fff',
-                'precio': 26
+                'nombre': 'Muchines de Yuca',
+                'precio': 15
             }
         ],
     }
@@ -82,75 +70,63 @@ var data = {
       'olimpico':{
           'platos': [
               {
-                  'nombre': 'ceviche',
-                  'photo': 'fff',
+                  'nombre': 'Trucha Frita',
+                  'precio': 20
+              },
+              {
+                  'nombre': 'Pachamanca',
                   'precio': 25
               },
               {
-                  'nombre': 'ceviche',
-                  'photo': 'fff',
-                  'precio': 23
-              },
-              {
-                  'nombre': 'ceviche',
-                  'photo': 'fff',
-                  'precio': 26
+                  'nombre': 'Patasca',
+                  'precio': 8
               }
           ],
       },
       'la-tullpa': {
           'platos': [
               {
-                  'nombre': 'ceviche',
-                  'photo': 'fff',
+                  'nombre': 'Cuy Colorado',
                   'precio': 25
               },
               {
-                  'nombre': 'ceviche',
-                  'photo': 'fff',
-                  'precio': 23
+                  'nombre': 'Carnero al Palo',
+                  'precio': 17
               },
               {
-                  'nombre': 'ceviche',
-                  'photo': 'fff',
-                  'precio': 26
+                  'nombre': 'Lengua Guisada',
+                  'precio': 14
               }
           ],},
       'el-padrino':{
           'platos': [
               {
-                  'nombre': 'ceviche',
-                  'photo': 'fff',
-                  'precio': 25
+                  'nombre': 'Humita de la Sierra',
+                  'precio': 2.5
               },
               {
-                  'nombre': 'ceviche',
-                  'photo': 'fff',
-                  'precio': 23
+                  'nombre': 'Mazamorra de Calabaza',
+                  'precio': 3
               },
               {
-                  'nombre': 'ceviche',
-                  'photo': 'fff',
-                  'precio': 26
+                  'nombre': 'ocopa',
+                  'precio': 7
               }
           ],
       },
       'leopardo':{
           'platos': [
               {
-                  'nombre': 'ceviche',
-                  'photo': 'fff',
-                  'precio': 25
+                  'nombre': 'Papa a la Huancaina',
+                  'precio': 8
               },
               {
-                  'nombre': 'ceviche',
-                  'photo': 'fff',
-                  'precio': 23
+                  'nombre': 'Chupe Verde',
+                  'precio': 10
               },
               {
-                  'nombre': 'ceviche',
-                  'photo': 'fff',
-                  'precio': 26
+                  'nombre': 'Chicharron de Chancho',
+                  'precio': 20
               }
           ],
       }
@@ -159,72 +135,60 @@ var data = {
        'shekina': {
            'platos': [
                {
-                   'nombre': 'ceviche',
-                   'photo': 'fff',
-                   'precio': 25
+                   'nombre': 'Juanes de Gallina',
+                   'precio': 17
                },
                {
-                   'nombre': 'ceviche',
-                   'photo': 'fff',
-                   'precio': 23
+                   'nombre': 'Chipado de Pescado',
+                   'precio': 15
                },
                {
-                   'nombre': 'ceviche',
-                   'photo': 'fff',
-                   'precio': 26
+                   'nombre': 'Cecina con Patacones',
+                   'precio': 20
                }
            ],},
        'mishaja': {
            'platos': [
                {
-                   'nombre': 'ceviche',
-                   'photo': 'fff',
-                   'precio': 25
+                   'nombre': 'Tacacho con Cecina',
+                   'precio': 18
                },
                {
-                   'nombre': 'ceviche',
-                   'photo': 'fff',
-                   'precio': 23
+                   'nombre': 'Sudado de Doncella',
+                   'precio': 17
                },
                {
-                   'nombre': 'ceviche',
-                   'photo': 'fff',
-                   'precio': 26
+                   'nombre': 'Patarashca',
+                   'precio': 20
                }
            ],},
        'la tranquera': {
            'platos': [
                {
-                   'nombre': 'ceviche',
-                   'photo': 'fff',
+                   'nombre': 'Paiche Frito',
                    'precio': 25
                },
                {
-                   'nombre': 'ceviche',
-                   'photo': 'fff',
-                   'precio': 23
+                   'nombre': 'Ensalada de Choita',
+                   'precio': 15
                },
                {
-                   'nombre': 'ceviche',
-                   'photo': 'fff',
-                   'precio': 26
+                   'nombre': 'ceviche de Doncella',
+                   'precio': 30
                }
            ],},
        'shambori-campa':{'platos': [
            { 
-            'nombre': 'ceviche',
-            'photo': 'fff', 
-            'precio': 25
+            'nombre': 'Brocheta de Suri',
+            'precio': 20
            },
            {
-             'nombre': 'ceviche',
-             'photo': 'fff',
-             'precio': 23
+             'nombre': 'Tacacho con Cecina',
+             'precio': 18
             },
            {
-             'nombre': 'ceviche',
-             'photo': 'fff',
-            'precio': 26
+             'nombre': 'Timbuche',
+            'precio': 23
             }
         ],}
 

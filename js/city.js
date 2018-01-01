@@ -13,7 +13,7 @@ $('document').ready(function(){
         
       }
       else{
-          $('#msj1').text('Escribe una de estas ciudades : LIMA-COSTA, HUANCAYO-SIERRA o CHANCHAMAYO-SELVA)');
+          $('#msj1').text('Escribe una de estas ciudades tal y como este escrito : LIMA-COSTA, HUANCAYO-SIERRA o CHANCHAMAYO-SELVA)');
           $('#restButton').attr('disabled', 'disabled');      
     
       }
