@@ -143,7 +143,74 @@ $('#restMeal').text(localStorage.ContRest1);
 
       /******************************SELVA****************/
 
-    
+    $('#restMeal').text(localStorage.ContRest1);
+
+    if ($('#restMeal').text() === 'shekina') {
+
+        var Plate1 = data['CHANCHAMAYO-SELVA']['shekina']['platos'][0]['nombre'];
+        var Plate2 = data['CHANCHAMAYO-SELVA']['shekina']['platos'][1]['nombre'];
+        var Plate3 = data['CHANCHAMAYO-SELVA']['shekina']['platos'][2]['nombre'];
+        $('#plate1').text(Plate1);
+        $('#plate2').text(Plate2);
+        $('#plate3').text(Plate3);
+
+        $('#imgplate1').attr('src', '../assets/img/juanesdegallina.jpg');
+        $('#imgplate2').attr('src', '../assets/img/chipado.jpg');
+        $('#imgplate3').attr('src', '../assets/img/cecina.jpg');
+
+    }
+
+    $('#restMeal').text(localStorage.ContRest2);
+
+    if ($('#restMeal').text() === 'mishaja') {
+
+        var Plate1 = data['CHANCHAMAYO-SELVA']['mishaja']['platos'][0]['nombre'];
+        var Plate2 = data['CHANCHAMAYO-SELVA']['mishaja']['platos'][1]['nombre'];
+        var Plate3 = data['CHANCHAMAYO-SELVA']['mishaja']['platos'][2]['nombre'];
+        $('#plate1').text(Plate1);
+        $('#plate2').text(Plate2);
+        $('#plate3').text(Plate3);
+
+        $('#imgplate1').attr('src', '../assets/img/tacacho.jpg');
+        $('#imgplate2').attr('src', '../assets/img/sudadodeDoncella.jpg');
+        $('#imgplate3').attr('src', '../assets/img/patarashca.jpg');
+
+    }
+
+    $('#restMeal').text(localStorage.ContRest3);
+
+    if ($('#restMeal').text() === 'la tranquera') {
+
+        var Plate1 = data['CHANCHAMAYO-SELVA']['la tranquera']['platos'][0]['nombre'];
+        var Plate2 = data['CHANCHAMAYO-SELVA']['la tranquera']['platos'][1]['nombre'];
+        var Plate3 = data['CHANCHAMAYO-SELVA']['la tranquera']['platos'][2]['nombre'];
+        $('#plate1').text(Plate1);
+        $('#plate2').text(Plate2);
+        $('#plate3').text(Plate3);
+
+        $('#imgplate1').attr('src', '../assets/img/paiche.jpg');
+        $('#imgplate2').attr('src', '../assets/img/chonta.jpg');
+        $('#imgplate3').attr('src', '../assets/img/cevichedeDoncella.jpg');
+
+    }
+
+    $('#restMeal').text(localStorage.ContRest4);
+
+    if ($('#restMeal').text() === 'shambori-campa') {
+
+        var Plate1 = data['CHANCHAMAYO-SELVA']['shambori-campa']['platos'][0]['nombre'];
+        var Plate2 = data['CHANCHAMAYO-SELVA']['shambori-campa']['platos'][1]['nombre'];
+        var Plate3 = data['CHANCHAMAYO-SELVA']['shambori-campa']['platos'][2]['nombre'];
+        $('#plate1').text(Plate1);
+        $('#plate2').text(Plate2);
+        $('#plate3').text(Plate3);
+
+        $('#imgplate1').attr('src', '../assets/img/suri.jpg');
+        $('#imgplate2').attr('src', '../assets/img/chorizo.JPG');
+        $('#imgplate3').attr('src', '../assets/img/timbuche.jpg');
+
+    }
+
 
    
    
