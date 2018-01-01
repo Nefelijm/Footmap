@@ -70,7 +70,7 @@ $('document').ready(function(){
             $('#Rest1').removeClass("selected")
         });
         $("#img2").mouseover(function () {
-            $("#msjMouser").text('El restaurante ocupa la planta baja del Casal organizado en dos comedores,con cabida para treinta comensales, nos ofrece posada al abrigo de su gran chimenea,El comedor está pensado para albergar pequeñas celebraciones o comidas de empresa, con una capacidad de hasta ochenta personas.Además dispone de proyector y pantalla lo que posibilita su utilización para presentaciones y eventos similares')            
+            $("#msjMouser").text('El restaurante ocupa la planta baja del Casal organizado en dos comedores,El comedor está pensado para albergar pequeñas celebraciones o comidas de empresa, con una capacidad de hasta ochenta personas.Además dispone de proyector y pantalla lo que posibilita su utilización para presentaciones y eventos similares')            
         });
         $("#img2").mouseout(function () {
             $("#msjMouser").text('');

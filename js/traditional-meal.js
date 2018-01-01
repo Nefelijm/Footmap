@@ -210,7 +210,8 @@ $('#restMeal').text(localStorage.ContRest1);
         $('#imgplate3').attr('src', '../assets/img/timbuche.jpg');
 
     }
-
+ 
+    /**************************************MODAL************************/
 
    
    
