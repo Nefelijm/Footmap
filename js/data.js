@@ -67,7 +67,7 @@ var data = {
     }
   },
   'HUANCAYO-SIERRA':{ 
-      'olimpico':{
+      'Olimpico':{
           'platos': [
               {
                   'nombre': 'Trucha Frita',
