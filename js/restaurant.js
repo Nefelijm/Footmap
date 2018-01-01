@@ -1,7 +1,8 @@
 $('document').ready(function(){
 
+ 
  $('#RestName').text(localStorage.input);
-
+    
     if ($('#RestName').text() === 'LIMA-COSTA') {
         var Restaurant1 = Object.keys(data['LIMA-COSTA'])[0];
         var Restaurant2 = Object.keys(data['LIMA-COSTA'])[1];
@@ -18,8 +19,10 @@ $('document').ready(function(){
         $('#img3').attr('src', '../assets/img/puntoAzul.jpg');
         $('#img4').attr('src', '../assets/img/laRed.jpg');
 
-}
+        mouseoverRestaurant();
 
+}
+    
     if ($('#RestName').text() === 'HUANCAYO-SIERRA') {
         var Restaurant1 = Object.keys(data['HUANCAYO-SIERRA'])[0];
         var Restaurant2 = Object.keys(data['HUANCAYO-SIERRA'])[1];
@@ -35,8 +38,9 @@ $('document').ready(function(){
         $('#img2').attr('src','../assets/img/tullpa.jpg');
         $('#img3').attr('src', '../assets/img/padrino.jpg');
         $('#img4').attr('src', '../assets/img/leopardo.jpg');
+        mouseoverRestaurant();
     }
-
+    
     if ($('#RestName').text() === 'CHANCHAMAYO-SELVA') {
         var Restaurant1 = Object.keys(data['CHANCHAMAYO-SELVA'])[0];
         var Restaurant2 = Object.keys(data['CHANCHAMAYO-SELVA'])[1];
@@ -52,8 +56,35 @@ $('document').ready(function(){
         $('#img2').attr('src', '../assets/img/mishaja.jpg');
         $('#img3').attr('src', '../assets/img/tranquera.jpg');
         $('#img4').attr('src', '../assets/img/shambari.jpg');
+        mouseoverRestaurant();
     }
    
+/**********************MOUSEOVER**********/
+
+    function mouseoverRestaurant(params) {
+       
+        $("#img1").mouseover(function () {
+            $('#Rest1').addClass("selected")
+        });
+        $("#img1").mouseout(function () {
+            $('#Rest1').removeClass("selected")
+        });
+        $("#img2").mouseover(function () {
+            $("#msjMouser").text('El restaurante ocupa la planta baja del Casal organizado en dos comedores,con cabida para treinta comensales, nos ofrece posada al abrigo de su gran chimenea,El comedor está pensado para albergar pequeñas celebraciones o comidas de empresa, con una capacidad de hasta ochenta personas.Además dispone de proyector y pantalla lo que posibilita su utilización para presentaciones y eventos similares')            
+        });
+        $("#img2").mouseout(function () {
+            $("#msjMouser").text('');
+        });
+        $("#img3").mouseover(function () {
+            $("#img3").css("width", "220px").slideUp(2000).slideDown(2000);
+        });
+        $("#img4").mouseover(function () {
+            alert('VISITANOS ESTAMOS A SU SERVICIO');
+        });
+
+    }
+
+/*************/
     $('#Rest1,#Rest2, #Rest3, #Rest4').click(function () {
 
         localStorage.ContRest1 = $('#Rest1').text();

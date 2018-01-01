@@ -1,5 +1,5 @@
 $('document').ready(function(){
-
+    
     $('#city').on('input',function(){
         var citys = Object.keys(data);
         var limaCity = citys[0];
