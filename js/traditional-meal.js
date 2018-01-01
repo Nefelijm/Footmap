@@ -2,9 +2,10 @@ $('document').ready(function(){
     
    /******************************LIMA****************/ 
 
-$('#restMeal').text(localStorage.ContRest1);
+$('#restMeal').text(localStorage.ContRest);
+    var Rest = $('#restMeal').text();
   
-    if ($('#restMeal').text() === 'yume') {
+    if ($('#restMeal').text() === 'yume' ) {
         
         var Plate1 = data['LIMA-COSTA']['yume']['platos'][0]['nombre']; 
         var Plate2 = data['LIMA-COSTA']['yume']['platos'][1]['nombre']; 
@@ -19,9 +20,9 @@ $('#restMeal').text(localStorage.ContRest1);
       
     }
 
- $('#restMeal').text(localStorage.ContRest2);
 
-    if ($('#restMeal').text() === 'Madam Tusam') {
+
+  if ($('#restMeal').text() === 'Madam Tusam') {
 
         var Plate1 = data['LIMA-COSTA']['Madam Tusam']['platos'][0]['nombre'];
         var Plate2 = data['LIMA-COSTA']['Madam Tusam']['platos'][1]['nombre'];
@@ -36,9 +37,9 @@ $('#restMeal').text(localStorage.ContRest1);
 
     }
 
-    $('#restMeal').text(localStorage.ContRest3);
+ 
 
-    if ($('#restMeal').text() === 'La red') {
+  if ($('#restMeal').text() === 'La red') {
 
         var Plate1 = data['LIMA-COSTA']['La red']['platos'][0]['nombre'];
         var Plate2 = data['LIMA-COSTA']['La red']['platos'][1]['nombre'];
@@ -53,9 +54,7 @@ $('#restMeal').text(localStorage.ContRest1);
 
     }
 
-    $('#restMeal').text(localStorage.ContRest4);
-
-    if ($('#restMeal').text() === 'Punto Azul') {
+if ($('#restMeal').text() === 'Punto Azul') {
 
         var Plate1 = data['LIMA-COSTA']['Punto Azul']['platos'][0]['nombre'];
         var Plate2 = data['LIMA-COSTA']['Punto Azul']['platos'][1]['nombre'];
@@ -72,7 +71,7 @@ $('#restMeal').text(localStorage.ContRest1);
 
      /******************************HUANCAYO****************/
        
-    $('#restMeal').text(localStorage.ContRest1);
+   
 
     if ($('#restMeal').text() === 'Olimpico') {
 
@@ -89,7 +88,7 @@ $('#restMeal').text(localStorage.ContRest1);
 
     }
 
-    $('#restMeal').text(localStorage.ContRest2);
+   
 
     if ($('#restMeal').text() === 'la-tullpa') {
 
@@ -106,8 +105,6 @@ $('#restMeal').text(localStorage.ContRest1);
 
     }
 
-    $('#restMeal').text(localStorage.ContRest3);
-
     if ($('#restMeal').text() === 'el-padrino') {
 
         var Plate1 = data['HUANCAYO-SIERRA']['el-padrino']['platos'][0]['nombre'];
@@ -123,7 +120,7 @@ $('#restMeal').text(localStorage.ContRest1);
 
     }
 
-    $('#restMeal').text(localStorage.ContRest4);
+    
 
     if ($('#restMeal').text() === 'leopardo') {
 
@@ -143,7 +140,7 @@ $('#restMeal').text(localStorage.ContRest1);
 
       /******************************SELVA****************/
 
-    $('#restMeal').text(localStorage.ContRest1);
+    
 
     if ($('#restMeal').text() === 'shekina') {
 
@@ -160,7 +157,7 @@ $('#restMeal').text(localStorage.ContRest1);
 
     }
 
-    $('#restMeal').text(localStorage.ContRest2);
+    
 
     if ($('#restMeal').text() === 'mishaja') {
 
@@ -177,7 +174,7 @@ $('#restMeal').text(localStorage.ContRest1);
 
     }
 
-    $('#restMeal').text(localStorage.ContRest3);
+  
 
     if ($('#restMeal').text() === 'la tranquera') {
 
@@ -194,7 +191,7 @@ $('#restMeal').text(localStorage.ContRest1);
 
     }
 
-    $('#restMeal').text(localStorage.ContRest4);
+   
 
     if ($('#restMeal').text() === 'shambori-campa') {
 
@@ -213,7 +210,10 @@ $('#restMeal').text(localStorage.ContRest1);
  
     /**************************************MODAL************************/
 
-   
+   $('#closeModal').click(function () {
+       window.location.href = '../views/city.html';
+       
+   });
    
 
 
